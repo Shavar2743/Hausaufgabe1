@@ -1,5 +1,9 @@
 operatorliste = ["+", "-", "/", "*"]
 
+name = input("Wie heißt du?")
+
+print (f"Hallo, {name}, willkommen bei Git!")
+
 zahl1 = int(input("Erste Zahl: "))
 operator = input("Operator: ")
 zahl2 = int(input("Zweite Zahl: "))
